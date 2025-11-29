@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreNow - Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+
+    <header>
+        <div class="logo">ExploreNow</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#itinerary">Itinerary</a></li>
+                <li><a href="#contact">Inquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <p>Exclusive tour packages designed for unforgettable memories.</p>
+        <a href="#tours" class="btn">Explore Tours</a>
+    </section>
+
+    <main id="mainContent">
+
+        <section id="tours" class="section">
+            <h2>Popular Tour Packages</h2>
+            <div class="tour-grid">
+
+                <article class="tour-card">
+                    <img src="himalayas.jpg" alt="Mountains tour image" height="500" width="400">
+                    <h3>Himalayan Escape</h3>
+                    <p>5 Days · ₹18,999</p>
+                    <button class="btn-secondary">View Details</button>
+                </article>
+
+                <article class="tour-card">
+                    <img src="beach.jpg" alt="Beach tour image" height="500" width="400">
+                    <h3>Goa Beaches</h3>
+                    <p>3 Days · ₹12,499</p>
+                    <button class="btn-secondary">View Details</button>
+                </article>
+
+                <article class="tour-card">
+                    <img src="dubai.jpg" alt="Foreign tour image" height="500" width="400">
+                    <h3>Dubai Highlights</h3>
+                    <p>6 Days · ₹54,999</p>
+                    <button class="btn-secondary">View Details</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="reviews" class="section">
+            <h2>Traveler Reviews</h2>
+
+            <article class="review">
+                <p>"Amazing experience! The trip was well organized and budget-friendly."</p>
+                <strong>- Aditi Sharma</strong>
+            </article>
+
+            <article class="review">
+                <p>"Loved the Himalayan trek. Highly recommended!"</p>
+                <strong>- Rohit Verma</strong>
+            </article>
+        </section>
+
+        <section id="itinerary" class="section">
+            <h2>Sample Itinerary</h2>
+
+            <ul class="itinerary-list">
+                <li>Day 1 – Arrival & Welcome Dinner</li>
+                <li>Day 2 – City Tour & Local Sightseeing</li>
+                <li>Day 3 – Adventure Activities</li>
+                <li>Day 4 – Free Exploration Day</li>
+                <li>Day 5 – Return Journey</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Inquiry Form</h2>
+
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter your full name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label for="package">Select Tour Package:</label>
+                <select id="package">
+                    <option>Himalayan Escape</option>
+                    <option>Goa Beaches</option>
+                    <option>Dubai Highlights</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" required placeholder="Your questions..."></textarea>
+
+                <button type="submit" class="btn">Submit Inquiry</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 ExploreNow Travel Agency</p>
+    </footer>
+
+</body>
+
+</html>
